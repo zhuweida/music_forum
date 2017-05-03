@@ -1,3 +1,4 @@
+git clone https://github.com/zhuweida/music_forum
 Initial back-end mysql database in cloud9:
 
 mysql-ctl cli;
