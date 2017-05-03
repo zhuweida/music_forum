@@ -5,6 +5,10 @@ CREATE USER 'mifeng'@'%' IDENTIFIED BY 'mifeng';
 GRANT ALL PRIVILEGES ON *.* TO 'mifeng'@'%' WITH GRANT OPTION; 
 
 after that you can tab:"mysql -u mifeng -p'mifeng';" to get into the back-end mysql database;
+create database forum;
+use forum;
+
+
 Then create tables:
 
 CREATE TABLE users (
